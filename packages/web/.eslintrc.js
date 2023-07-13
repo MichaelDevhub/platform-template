@@ -1,20 +1,18 @@
 module.exports = {
-    parser: '@typescript-eslint/parser',
-    extends: [
-        'plugin:react/recommended',
-        'plugin:@typescript-eslint/recommended',
-    ],
     parserOptions: {
-        ecmaVersion: 2018,
+        ecmaVersion: 2021,
         sourceType: 'module',
         ecmaFeatures: {
             jsx: true,
         },
     },
-    rules: {},
-    settings: {
-        react: {
-            version: 'detect',
-        },
+    extends: [
+        'next/core-web-vitals',
+        'plugin:@typescript-eslint/recommended',
+        'prettier',
+    ],
+    plugins: ['@typescript-eslint'],
+    rules: {
+        // Add your custom ESLint rules here
     },
 };

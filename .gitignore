@@ -1,0 +1,9 @@
+/.idea/
+node_modules/
+/packages/api/lib/
+/packages/backend/lib/
+/packages/hooks/lib/
+/packages/mobile/lib/
+/packages/mobile-components/lib/
+/packages/web/lib/
+/packages/web-components/lib/
